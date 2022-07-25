@@ -14,3 +14,4 @@ To train the model please run the code below:
 
 The model architecture is as follow:
 
+![The 3d model architecture](https://github.com/sayeh1994/Facial-Expression-Recognition/blob/main/images/Model-3d-architecture.jpg)
