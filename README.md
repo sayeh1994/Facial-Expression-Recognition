@@ -20,4 +20,6 @@ The model architecture is as follow:
 
 For testing the trained model, you can run the following command:
 
-`python main.py --mode="test" --test_dir="./test" --CM_name="test" --model_save_dir="./model"  --result_save_dir="./result" --cnum=6 --image_size=64`
+```bash
+python main.py --mode="test" --test_dir="./test" --CM_name="test" --model_save_dir="./model"  --result_save_dir="./result" --cnum=6 --image_size=64
+```
