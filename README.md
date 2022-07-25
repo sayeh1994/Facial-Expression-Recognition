@@ -8,7 +8,9 @@ The goal of this project was to improve the performance of facial expression rec
 
 To train the model please run the code below:
 
-`python main.py --mode="train" --train_dir="./train"  --val_dir="./validation" --model_save_dir="./model" --result_save_dir="./result" --num_train=600 --num_val=60 --batch_size=16 --num_epoch=50 --image_size=64 --cnum=6 --stop_patient=5`
+```bash
+python main.py --mode="train" --train_dir="./train"  --val_dir="./validation" --model_save_dir="./model" --result_save_dir="./result" --num_train=600 --num_val=60 --batch_size=16 --num_epoch=50 --image_size=64 --cnum=6 --stop_patient=5
+```
 
 `cnum` is the number of classes you want to do the recognition. The image dimension is 64x64. `num_train` and `num_val` can be adjusted based on the total number of images in your training and validation set.
 
