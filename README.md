@@ -23,3 +23,5 @@ For testing the trained model, you can run the following command:
 ```bash
 python main.py --mode="test" --test_dir="./test" --CM_name="test" --model_save_dir="./model"  --result_save_dir="./result" --cnum=6 --image_size=64
 ```
+
+You can find the pre-trained model for different augmentation in [MyDrive](https://drive.google.com/drive/folders/1gvf4V1Td0gdsmHEOeMkxg9WmqlqsMLvW?usp=sharing).
