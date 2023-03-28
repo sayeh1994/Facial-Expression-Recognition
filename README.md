@@ -1,4 +1,5 @@
-Our Paper [arXiv](https://arxiv.org/abs/2303.15223)
+## Our Paper [arXiv](https://arxiv.org/abs/2303.15223)
+
 # Facial-Expression-Recognition
 
 The goal of this project was to improve the performance of facial expression recognition model by augmenting the training dataset with generated data.
@@ -26,3 +27,37 @@ python main.py --mode="test" --test_dir="./test" --CM_name="test" --model_save_d
 ```
 
 You can find the pre-trained model for different augmentation in [MyDrive](https://drive.google.com/drive/folders/1gvf4V1Td0gdsmHEOeMkxg9WmqlqsMLvW?usp=sharing).
+
+
+# Citation
+Please cite our paper from the following bibtex:
+```bash
+@conference{visapp23,
+author={Sayeh {Gholipour Picha}. and Dawood {Al Chanti}. and Alice Caplier.},
+title={How far Generated Data Can Impact Neural Networks Performance?},
+booktitle={Proceedings of the 18th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 5: VISAPP,},
+year={2023},
+pages={472-479},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0011629000003417},
+isbn={978-989-758-634-7},
+issn={2184-4321},
+}
+```
+```bash
+@inproceedings{Gholipour_Picha_2023,
+	doi = {10.5220/0011629000003417},
+  
+	url = {https://doi.org/10.5220%2F0011629000003417},
+  
+	year = 2023,
+	publisher = {{SCITEPRESS} - Science and Technology Publications},
+  
+	author = {Sayeh Gholipour Picha and Dawood Al Chanti and Alice Caplier},
+  
+	title = {How far Generated Data Can Impact Neural Networks Performance?},
+  
+	booktitle = {Proceedings of the 18th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications}
+}
+```
