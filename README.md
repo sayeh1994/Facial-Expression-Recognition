@@ -1,3 +1,4 @@
+Our Paper [arXiv](https://arxiv.org/abs/2303.15223)
 # Facial-Expression-Recognition
 
 The goal of this project was to improve the performance of facial expression recognition model by augmenting the training dataset with generated data.
