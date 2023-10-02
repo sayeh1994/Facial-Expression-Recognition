@@ -163,4 +163,4 @@ if __name__ == '__main__':
     ap.add_argument("--stop_patient", type=int,default=5)
     ap.add_argument("--CM_name",default="CM")
     config = ap.parse_args()
-  
+    main(config)
