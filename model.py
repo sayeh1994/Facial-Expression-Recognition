@@ -18,6 +18,9 @@ class CNN(object):
         self.cnum = config.cnum
     
     def model_FER (self):
+        """
+        Feedforward model
+        """
         model_cnn = Sequential()
 
         model_cnn.add(Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(self.image_size,self.image_size,1)))
